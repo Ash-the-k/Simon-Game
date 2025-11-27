@@ -51,3 +51,38 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #000d1a;
+  border-top: 2px solid #FEF2BF;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+footer span {
+  display: inline-block;      /* shrink to content */
+}
+
+footer a {
+  color: #FEF2BF;
+  text-decoration: none;
+  margin: 0 20px;             /* equal spacing around each link */
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+
+footer a:hover {
+  /* Crisp, high-contrast arcade color pop */
+  color: #F84C1C; 
+  transform: scale(1.1);  
+}
